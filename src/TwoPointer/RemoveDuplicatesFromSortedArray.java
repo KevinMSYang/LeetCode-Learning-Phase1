@@ -55,4 +55,18 @@ public class RemoveDuplicatesFromSortedArray {
 		
 		return l + 1;
 	}
+	
+//    public int removeDuplicates(int[] nums) {
+//        List<Integer> list = new ArrayList<>();
+//		for (int i = 0, j = 0; i < nums.length; i++)
+//		{
+//			if (!list.contains(nums[i]))
+//			{
+//				list.add(nums[i]);
+//                nums[j] = list.get(j);
+//				j++;
+//			}
+//		}
+//		return list.size();
+//    }
 }
